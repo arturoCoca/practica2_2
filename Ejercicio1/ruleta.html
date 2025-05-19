@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Virtual - Ruleta Aleatoria</title>
+    <link rel="stylesheet" href="ruleta.css">
+</head>
+<body>
+    <div class="container">
+        <h1>La Ruleta Aleatoria</h1>
+
+        <div class="content">
+            <div class="ruleta-container">
+                <div id="ruleta">
+                    </div>
+                <div id="marcador"></div>
+                <div id="mensaje">haz clic para girarlo</div>
+                <div id="respuesta">Elemento seleccionado: 12</div>
+            </div>
+
+            <div class="controles">
+                <div class="textarea-container">
+                    <textarea id="elementosTextarea" rows="15" cols="20">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12</textarea>
+                </div>
+
+                <div class="botones">
+                    <button id="btnTitulo" class="btn">Título</button>
+                    <button id="btnEditar" class="btn">Editar</button>
+                    <button id="btnEsconder" class="btn">esconder...</button>
+                </div>
+
+                <div class="teclas">
+                    <div class="tecla"><span>SPACE</span> Gíralo</div>
+                    <div class="tecla"><span>X</span> Cerrar el banner</div>
+                    <div class="tecla"><span>S</span> Ocultar el elemento seleccionado</div>
+                    <div class="tecla"><span>R</span> Reiniciar</div>
+                    <div class="tecla"><span>E</span> Editar</div>
+                    <div class="tecla"><span>F</span> Pantalla completa</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="botones-principales">
+            <button id="btnIniciar" class="btn btn-primary">Iniciar</button>
+            <button id="btnReiniciar" class="btn btn-secondary">Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="ruleta.js"></script>
+</body>
+</html>
